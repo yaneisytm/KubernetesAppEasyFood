@@ -9,7 +9,7 @@ gcloud container clusters get-credentials cluster-kubernetes --zone=us-central1-
 En el directorio donde están todos los servicios y deployments
 kubectl apply -f .
 
-Es importante brir los puertos que se han escogido para las aplicacion en este caso 8000 y 8080.(se debe añadir una firewall para ello)
+Es importante brir los puertos que se han escogido para la aplicación en este caso 8000 y 8080.(se debe añadir una firewall para ello)
 
 # Para escalar la aplicación podemos aplicar el comando 
 kubectl get deployments --> listar los deployments activos
