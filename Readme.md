@@ -18,7 +18,7 @@ kubectl get deployments --> listar los deployments activos
 kubectl scale deployment web --replicas 4
 
 # Ver la app  en :
-http://34.121.172.245:8080/--> frontend
+http://104.197.98.100:8080/--> frontend
 http://35.192.211.111:8000/admin/ --> backend
  user: admin
  pass:admin1234
